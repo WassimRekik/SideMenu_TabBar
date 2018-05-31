@@ -3,7 +3,7 @@ In this project we will implement a starter application with Side Menu, Tab Bar 
 
 * Application demo
 
-![alt text] (https://github.com/WassimRekik/SideMenu_TabBar/blob/master/Demo_Scren/Demo.gif)
+![alt text](https://github.com/WassimRekik/SideMenu_TabBar/blob/master/Demo_Scren/Demo.gif)
 
 ## Side Menu
 For this part we will use :
