@@ -9,10 +9,10 @@
 import UIKit
 
 class HomeTabViewController: UITabBarController {
-
+    @IBOutlet weak var menuButton: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        sideMenu()
         // Do any additional setup after loading the view.
     }
 
@@ -21,7 +21,16 @@ class HomeTabViewController: UITabBarController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    func sideMenu(){
+        if revealViewController() != nil{
+            menuButton.target = revealViewController()
+            menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
+            revealViewController().rearViewRevealWidth = 250
+            
+            view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        }
+        
+    }
     /*
     // MARK: - Navigation
 

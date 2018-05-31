@@ -12,7 +12,6 @@ class ParamViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
@@ -21,6 +20,9 @@ class ParamViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func CloseAction(_ sender: UIBarButtonItem) {
+        self.dismiss(animated: true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation

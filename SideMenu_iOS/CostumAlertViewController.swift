@@ -10,9 +10,11 @@ import UIKit
 
 class CostumAlertViewController: UIViewController {
 
+    @IBOutlet weak var AlertView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        AlertView.layer.cornerRadius = 10
+        AlertView.layer.masksToBounds = true
         // Do any additional setup after loading the view.
     }
 
@@ -21,15 +23,9 @@ class CostumAlertViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func CloseAlert(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
     }
-    */
+    
 
 }

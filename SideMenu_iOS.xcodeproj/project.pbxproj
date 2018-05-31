@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		8823870420BD9DB700BC12D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823870320BD9DB700BC12D3 /* AppDelegate.swift */; };
-		8823870620BD9DB700BC12D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823870520BD9DB700BC12D3 /* ViewController.swift */; };
 		8823870920BD9DB700BC12D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8823870720BD9DB700BC12D3 /* Main.storyboard */; };
 		8823870B20BD9DB700BC12D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8823870A20BD9DB700BC12D3 /* Assets.xcassets */; };
 		8823870E20BD9DB700BC12D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8823870C20BD9DB700BC12D3 /* LaunchScreen.storyboard */; };
 		8823871920BD9DB800BC12D3 /* SideMenu_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823871820BD9DB800BC12D3 /* SideMenu_iOSTests.swift */; };
 		8823872420BD9DB800BC12D3 /* SideMenu_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823872320BD9DB800BC12D3 /* SideMenu_iOSUITests.swift */; };
+		8823873420BD9FED00BC12D3 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8823873320BD9FED00BC12D3 /* SWRevealViewController.m */; };
+		8823873620BDA4F800BC12D3 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823873520BDA4F800BC12D3 /* AccountViewController.swift */; };
+		8823873820BDAF2400BC12D3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823873720BDAF2400BC12D3 /* MenuViewController.swift */; };
+		8823873A20BDEA9100BC12D3 /* ParamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823873920BDEA9100BC12D3 /* ParamViewController.swift */; };
+		8861E72520BF7E4300C67EE9 /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8861E72420BF7E4300C67EE9 /* HomeTabViewController.swift */; };
+		8861E72720BF8CAC00C67EE9 /* CostumAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8861E72620BF8CAC00C67EE9 /* CostumAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		8823870020BD9DB700BC12D3 /* SideMenu_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideMenu_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8823870320BD9DB700BC12D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8823870520BD9DB700BC12D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8823870820BD9DB700BC12D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8823870A20BD9DB700BC12D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8823870D20BD9DB700BC12D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		8823871F20BD9DB800BC12D3 /* SideMenu_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideMenu_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8823872320BD9DB800BC12D3 /* SideMenu_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu_iOSUITests.swift; sourceTree = "<group>"; };
 		8823872520BD9DB800BC12D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8823873120BD9FEC00BC12D3 /* SideMenu_iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SideMenu_iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		8823873220BD9FED00BC12D3 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		8823873320BD9FED00BC12D3 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		8823873520BDA4F800BC12D3 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		8823873720BDAF2400BC12D3 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8823873920BDEA9100BC12D3 /* ParamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParamViewController.swift; sourceTree = "<group>"; };
+		8861E72420BF7E4300C67EE9 /* HomeTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
+		8861E72620BF8CAC00C67EE9 /* CostumAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostumAlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +110,18 @@
 			isa = PBXGroup;
 			children = (
 				8823870320BD9DB700BC12D3 /* AppDelegate.swift */,
-				8823870520BD9DB700BC12D3 /* ViewController.swift */,
 				8823870720BD9DB700BC12D3 /* Main.storyboard */,
+				8823873220BD9FED00BC12D3 /* SWRevealViewController.h */,
+				8823873320BD9FED00BC12D3 /* SWRevealViewController.m */,
 				8823870A20BD9DB700BC12D3 /* Assets.xcassets */,
 				8823870C20BD9DB700BC12D3 /* LaunchScreen.storyboard */,
 				8823870F20BD9DB700BC12D3 /* Info.plist */,
+				8823873120BD9FEC00BC12D3 /* SideMenu_iOS-Bridging-Header.h */,
+				8823873520BDA4F800BC12D3 /* AccountViewController.swift */,
+				8823873720BDAF2400BC12D3 /* MenuViewController.swift */,
+				8823873920BDEA9100BC12D3 /* ParamViewController.swift */,
+				8861E72420BF7E4300C67EE9 /* HomeTabViewController.swift */,
+				8861E72620BF8CAC00C67EE9 /* CostumAlertViewController.swift */,
 			);
 			path = SideMenu_iOS;
 			sourceTree = "<group>";
@@ -194,6 +213,7 @@
 					882386FF20BD9DB700BC12D3 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = W6MJTH64JW;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					8823871320BD9DB800BC12D3 = {
@@ -262,8 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8823870620BD9DB700BC12D3 /* ViewController.swift in Sources */,
+				8823873620BDA4F800BC12D3 /* AccountViewController.swift in Sources */,
 				8823870420BD9DB700BC12D3 /* AppDelegate.swift in Sources */,
+				8861E72720BF8CAC00C67EE9 /* CostumAlertViewController.swift in Sources */,
+				8823873420BD9FED00BC12D3 /* SWRevealViewController.m in Sources */,
+				8823873A20BDEA9100BC12D3 /* ParamViewController.swift in Sources */,
+				8823873820BDAF2400BC12D3 /* MenuViewController.swift in Sources */,
+				8861E72520BF7E4300C67EE9 /* HomeTabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,11 +440,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = W6MJTH64JW;
 				INFOPLIST_FILE = SideMenu_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tn.insat.wassimrekik.SideMenu-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SideMenu_iOS/SideMenu_iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -428,11 +456,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = W6MJTH64JW;
 				INFOPLIST_FILE = SideMenu_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tn.insat.wassimrekik.SideMenu-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SideMenu_iOS/SideMenu_iOS-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -514,6 +544,7 @@
 				8823872A20BD9DB800BC12D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8823872B20BD9DB800BC12D3 /* Build configuration list for PBXNativeTarget "SideMenu_iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +553,7 @@
 				8823872D20BD9DB800BC12D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8823872E20BD9DB800BC12D3 /* Build configuration list for PBXNativeTarget "SideMenu_iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +562,7 @@
 				8823873020BD9DB800BC12D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
